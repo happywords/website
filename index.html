@@ -97,6 +97,7 @@
             window.quotes_per_page = 2;
 
             function select_quotes() {
+                var tag = window.tag;
                 window.quotes = {};
 
                 for(var page = 1; page <= Math.ceil(window.all_quotes.length / window.quotes_per_page); page++) {
@@ -109,7 +110,6 @@
                     if(index % window.quotes_per_page == 0) {
                         page += 1;
                     }
-                    console.log(page);
                     window.quotes[page].push(quote);
                     index += 1;
                 });
@@ -168,12 +168,15 @@
                 return default_me(result, []);
             }
 
-            function page_title(page) {
-                return "Quotes - page " + page + " - Happy Words";
+            function page_title(page, tag, short = false) {
+                if(short) {
+                    return "Quotes - " + tag + " - page " + page;
+                }
+                return "Quotes - " + tag + " - page " + page + " - Happy Words";
             }
 
-            function set_page_title(page) {
-                document.title = page_title(page);
+            function set_page_title(page, tag) {
+                document.title = page_title(page, tag);
             }
 
             function update_pagination() {
@@ -203,16 +206,17 @@
                     window.page = 1;
                     document.querySelector("button[data-page='1']").classList.add("btn-active");
                 }
-                set_page_title(window.page);
+                set_page_title(window.page, window.tag);
                 set_url_param("page", window.page);
                 var title = document.getElementsByClassName("list-title")[0];
-                title.textContent = "Quotes - page " + window.page;
+                title.textContent = page_title(window.page, window.tag, true);
                 update_content(get_quotes(window.page));
             }
 
             if ('content' in document.createElement('template')) {
-                select_quotes();
                 window.page = default_me(get_url_param("page"), 1);
+                window.tag = default_me(get_url_param("tag"), "all");
+                select_quotes();
                 update_pagination();
                 render_page(page);
             } else {
