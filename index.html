@@ -138,15 +138,18 @@
             }
 
             function render_page(page) {
-                window.page = page;
-                set_url_param("page", page);
                 try {
                     document.querySelector("button.btn-active").classList.remove("btn-active");
                     document.querySelector("button[data-page='" + page + "']").classList.add("btn-active");
-                } catch {}
+                    window.page = page;
+                } catch {
+                    window.page = 1;
+                    document.querySelector("button[data-page='1']").classList.add("btn-active");
+                }
+                set_url_param("page", window.page);
                 var title = document.getElementsByClassName("list-title")[0];
-                title.textContent = "Quotes - page " + page;
-                update_content(get_quotes(page));
+                title.textContent = "Quotes - page " + window.page;
+                update_content(get_quotes(window.page));
             }
 
             if ('content' in document.createElement('template')) {
