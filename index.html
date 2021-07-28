@@ -10,47 +10,79 @@
         <div class="container">
             <h1>Happy Words</h1>
             <div class="items">
-            </div>
+                <h2 class="list-title">Items</h2>
 
-            <template id="item-template">
-                <div class="item">
-                    <div class="text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut
-                            labore et dolore magna aliquyam erat, sed diam
-                            voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum. Stet clita kasd gubergren,
-                            no sea takimata sanctus est Lorem ipsum dolor.
-                        </p>
-                    </div>
-                    <div class="source">
-                        Lorem ipsum, pag 12
-                    </div>
-                    <div class="tags">
-                    </div>
+                <div class="items-list">
                 </div>
-            </template>
+
+                <template id="item-template">
+                    <div class="item">
+                        <div class="text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing
+                                elitr, sed diam nonumy eirmod tempor invidunt ut
+                                labore et dolore magna aliquyam erat, sed diam
+                                voluptua. At vero eos et accusam et justo duo
+                                dolores et ea rebum. Stet clita kasd gubergren,
+                                no sea takimata sanctus est Lorem ipsum dolor.
+                            </p>
+                        </div>
+                        <div class="source">
+                            Lorem ipsum, pag 12
+                        </div>
+                        <div class="tags">
+                        </div>
+                    </div>
+                </template>
+
+                <div class="pagination">
+                    <button onclick="render_page(1)" data-page="1" class="btn btn-active">1</button>
+                    <button onclick="render_page(2)" data-page="2" class="btn">2</button>
+                    <button onclick="render_page(3)" data-page="3" class="btn">3</button>
+                    <button onclick="render_page(4)" data-page="4" class="btn">4</button>
+                </div>
+            </div>
         </div>
 
         <script charset="utf-8">
-            var quotes = [
-                {
-                    text: "asdasd asdasd asdasdasd asdasd1",
-                    source: "source 111",
-                    tags: ["123", "18767"]
-                },
-                {
-                    text: "asdasd asdasd asdasdasd asdasd2222",
-                    source: "source 222",
-                    tags: ["22223", "22228767", "asdasd"]
-                },
-                {
-                    text: "asdasd asdasd asdasdasd asdasd333",
-                    source: "source 333",
-                    tags: ["33323", "3338767"]
-                },
-            ];
+            var quotes = {
+                1: [
+                    {
+                        text: "asdasd asdasd asdasdasd asdasd1",
+                        source: "source 111",
+                        tags: ["123", "18767"]
+                    },
+                    {
+                        text: "asdasd asdasd asdasdasd asdasd2222",
+                        source: "source 222",
+                        tags: ["22223", "22228767", "asdasd"]
+                    },
+                    {
+                        text: "asdasd asdasd asdasdasd asdasd333",
+                        source: "source 333",
+                        tags: ["33323", "3338767"]
+                    }
+                ],
+                2: [
+                    {
+                        text: "asdasd asdasd asdasdasd asdasd1",
+                        source: "source 111",
+                        tags: ["123", "18767"]
+                    },
+                    {
+                        text: "asdasd asdasd asdasdasd asdasd333",
+                        source: "source 333",
+                        tags: ["33323", "3338767"]
+                    }
+                ],
+                3: [
+                    {
+                        text: "asdasd asdasd asdasdasd asdasd333",
+                        source: "source 333",
+                        tags: ["33323", "3338767"]
+                    }
+                ],
+            };
 
             function render_quote(text, source, tags) {
                 var item_template = document.getElementById("item-template").content;
@@ -71,7 +103,7 @@
             }
 
             function update_content(quotes) {
-                var items_container = document.querySelector("div.items");
+                var items_container = document.querySelector("div.items-list");
                 items_container.innerHTML = "";
 
                 quotes.forEach(quote => {
@@ -79,11 +111,20 @@
                 })
             }
 
+            function render_page(page) {
+                document.querySelector("button.btn-active").classList.remove("btn-active");
+                document.querySelector("button[data-page='" + page + "']").classList.add("btn-active");
+                var title = document.getElementsByClassName("list-title")[0];
+                title.textContent = "Quotes - page " + page;
+                update_content(quotes[page]);
+            }
+
             if ('content' in document.createElement('template')) {
-                update_content(quotes);
+                render_page(1);
             } else {
                 console.log("template feature missing.");
             }
+
         </script>
     </body>
 </html>

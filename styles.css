@@ -56,3 +56,16 @@ div.item div.tags a {
 div.item div.tags a:hover {
     background: #a8b4a5;
 }
+
+div.pagination button.btn {
+    border: none;
+    background: #9d6a89;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+div.pagination button.btn.btn-active {
+    background: white !important;
+}
