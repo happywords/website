@@ -6,14 +6,18 @@
    #725d68
    #a8b4a5
 */
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Style+Script&display=swap');
 
 body {
     background: #725d68;
+    font-family: 'Andada Pro', serif;
 }
 
 h1 {
+    font-family: 'Style Script', cursive;
     color: white;
     text-align: center;
+    font-weight: 300;
 }
 
 div.container {
@@ -44,6 +48,10 @@ div.item div.published {
     font-size: 16px;
     color: #a8b4a5;
     text-align: right;
+}
+
+div.item div.tags {
+    margin-top: 15px;
 }
 
 div.item div.tags a {
