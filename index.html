@@ -41,65 +41,79 @@
         </div>
 
         <script charset="utf-8">
-            var quotes = {
-                1: [
-                    {
-                        text: "asdasd asdasd asdasdasd asdasd1",
-                        source: "source 111",
-                        tags: ["123", "18767"]
-                    },
-                    {
-                        text: "asdasd asdasd asdasdasd asdasd2222",
-                        source: "source 222",
-                        tags: ["22223", "22228767", "asdasd"]
-                    },
-                    {
-                        text: "asdasd asdasd asdasdasd asdasd333",
-                        source: "source 333",
-                        tags: ["33323", "3338767"]
+            var all_quotes = [
+                {
+                    text: "asdasd asdasd asdasdasd asdasd1",
+                    source: "source 111",
+                    tags: ["123", "18767"]
+                },
+                {
+                    text: "asdasd asdasd asdasdasd asdasd2222",
+                    source: "source 222",
+                    tags: ["22223", "22228767", "asdasd"]
+                },
+                {
+                    text: "asdasd asdasd asdasdasd asdasd333",
+                    source: "source 333",
+                    tags: ["33323", "3338767"]
+                },
+                {
+                    text: "asdasd asdasd asdasdasd asdasd1",
+                    source: "source 111",
+                    tags: ["123", "18767"]
+                },
+                {
+                    text: "asdasd asdasd asdasdasd asdasd333",
+                    source: "source 333",
+                    tags: ["33323", "3338767"]
+                },
+                {
+                    text: "asdasd asdasd asdasdasd asdasd333",
+                    source: "source 333",
+                    tags: ["33323", "3338767"]
+                },
+                {
+                    text: "page 4 content here",
+                    source: "source 333",
+                    tags: ["33323", "3338767"]
+                },
+                {
+                    text: "page 5 content",
+                    source: "source 333",
+                    tags: ["33323", "3338767", "asda", "adsasd", "asdasd"]
+                },
+                {
+                    text: "page 5 content",
+                    source: "source 333",
+                    tags: ["33323", "3338767", "asda", "adsasd", "asdasd"]
+                },
+                {
+                    text: "page 6 content",
+                    source: "source 333",
+                    tags: ["33323", "3338767"]
+                }
+            ];
+
+            window.quotes_per_page = 2;
+
+            function select_quotes() {
+                window.quotes = {};
+
+                for(var page = 1; page <= Math.ceil(window.all_quotes.length / window.quotes_per_page); page++) {
+                    window.quotes[page] = [];
+                }
+
+                var index = 0;
+                var page = 0;
+                window.all_quotes.forEach(quote => {
+                    if(index % window.quotes_per_page == 0) {
+                        page += 1;
                     }
-                ],
-                2: [
-                    {
-                        text: "asdasd asdasd asdasdasd asdasd1",
-                        source: "source 111",
-                        tags: ["123", "18767"]
-                    },
-                    {
-                        text: "asdasd asdasd asdasdasd asdasd333",
-                        source: "source 333",
-                        tags: ["33323", "3338767"]
-                    }
-                ],
-                3: [
-                    {
-                        text: "asdasd asdasd asdasdasd asdasd333",
-                        source: "source 333",
-                        tags: ["33323", "3338767"]
-                    }
-                ],
-                4: [
-                    {
-                        text: "page 4 content here",
-                        source: "source 333",
-                        tags: ["33323", "3338767"]
-                    }
-                ],
-                5: [
-                    {
-                        text: "page 5 content",
-                        source: "source 333",
-                        tags: ["33323", "3338767", "asda", "adsasd", "asdasd"]
-                    }
-                ],
-                6: [
-                    {
-                        text: "page 6 content",
-                        source: "source 333",
-                        tags: ["33323", "3338767"]
-                    }
-                ],
-            };
+                    console.log(page);
+                    window.quotes[page].push(quote);
+                    index += 1;
+                });
+            }
 
             function default_me(value, default_value) {
                 return (value === undefined || value === null) ? default_value : value;
@@ -146,7 +160,7 @@
             function get_quotes(page) {
                 var result = "";
                 try {
-                    result = quotes[page];
+                    result = window.quotes[page];
                 } catch {
                     result = undefined;
                 }
@@ -163,7 +177,7 @@
             }
 
             function update_pagination() {
-                var pages = Object.keys(quotes);
+                var pages = Object.keys(window.quotes);
 
                 const pagination_container = document.querySelector("div#pagination");
                 pagination_container.innerHTML = "";
@@ -197,6 +211,7 @@
             }
 
             if ('content' in document.createElement('template')) {
+                select_quotes();
                 window.page = default_me(get_url_param("page"), 1);
                 update_pagination();
                 render_page(page);
