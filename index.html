@@ -131,6 +131,7 @@
                     const tag_element = document.createElement('a');
                     tag_element.textContent = tag;
                     tag_element.href = "#"
+                    tag_element.onclick = function() { go_to_tag(tag); };
                     tags_container.appendChild(tag_element);
                 });
 
@@ -211,6 +212,16 @@
                 var title = document.getElementsByClassName("list-title")[0];
                 title.textContent = page_title(window.page, window.tag, true);
                 update_content(get_quotes(window.page));
+            }
+
+            function go_to_tag(tag) {
+                window.tag = tag;
+                set_url_param("tag", window.tag);
+                window.page = 1;
+                set_page_title(window.page, window.tag);
+                var title = document.getElementsByClassName("list-title")[0];
+                title.textContent = page_title(window.page, window.tag, true);
+                render_page(window.page);
             }
 
             if ('content' in document.createElement('template')) {
