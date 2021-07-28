@@ -110,7 +110,9 @@
                     if(index % window.quotes_per_page == 0) {
                         page += 1;
                     }
-                    window.quotes[page].push(quote);
+                    if(tag === "all" || quote.tags.includes(tag)) {
+                        window.quotes[page].push(quote);
+                    }
                     index += 1;
                 });
             }
@@ -221,6 +223,7 @@
                 set_page_title(window.page, window.tag);
                 var title = document.getElementsByClassName("list-title")[0];
                 title.textContent = page_title(window.page, window.tag, true);
+                select_quotes();
                 render_page(window.page);
             }
 
