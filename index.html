@@ -102,6 +102,17 @@
                 return clone;
             }
 
+            function get_url_param(param) {
+                return new URLSearchParams(window.location.search).get(param);
+            }
+
+            function set_url_param(param_name, param_value) {
+                var query_params = new URLSearchParams(window.location.search);
+                query_params.set(param_name, param_value);
+                //history.replaceState(null, null, "?"+queryParams.toString());
+                history.pushState(null, null, "?"+query_params.toString());
+            }
+
             function update_content(quotes) {
                 var items_container = document.querySelector("div.items-list");
                 items_container.innerHTML = "";
@@ -112,6 +123,7 @@
             }
 
             function render_page(page) {
+                set_url_param("page", page);
                 document.querySelector("button.btn-active").classList.remove("btn-active");
                 document.querySelector("button[data-page='" + page + "']").classList.add("btn-active");
                 var title = document.getElementsByClassName("list-title")[0];
@@ -120,7 +132,8 @@
             }
 
             if ('content' in document.createElement('template')) {
-                render_page(1);
+                var page = get_url_param("page");
+                render_page(page);
             } else {
                 console.log("template feature missing.");
             }
