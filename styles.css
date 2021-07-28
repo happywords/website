@@ -39,7 +39,8 @@ div.item div.text {
     color: #725d68;
 }
 
-div.item div.source {
+div.item div.source,
+div.item div.published {
     font-size: 16px;
     color: #a8b4a5;
     text-align: right;
