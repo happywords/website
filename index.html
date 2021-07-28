@@ -100,19 +100,24 @@
                 var tag = window.tag;
                 window.quotes = {};
 
-                for(var page = 1; page <= Math.ceil(window.all_quotes.length / window.quotes_per_page); page++) {
+                var filtered_quotes = [];
+                window.all_quotes.forEach(quote => {
+                    if(tag === "all" || quote.tags.includes(tag)) {
+                        filtered_quotes.push(quote);
+                    }
+                });
+
+                for(var page = 1; page <= Math.ceil(filtered_quotes.length / window.quotes_per_page); page++) {
                     window.quotes[page] = [];
                 }
 
                 var index = 0;
                 var page = 0;
-                window.all_quotes.forEach(quote => {
+                filtered_quotes.forEach(quote => {
                     if(index % window.quotes_per_page == 0) {
                         page += 1;
                     }
-                    if(tag === "all" || quote.tags.includes(tag)) {
-                        window.quotes[page].push(quote);
-                    }
+                    window.quotes[page].push(quote);
                     index += 1;
                 });
             }
@@ -225,6 +230,7 @@
                 title.textContent = page_title(window.page, window.tag, true);
                 select_quotes();
                 render_page(window.page);
+                update_pagination();
             }
 
             if ('content' in document.createElement('template')) {
