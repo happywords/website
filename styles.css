@@ -1,0 +1,58 @@
+/*
+ * https://coolors.co/efbc9b-ee92c2-9d6a89-725d68-a8b4a5
+   #efbc9b
+   #ee92c2
+   #9d6a89
+   #725d68
+   #a8b4a5
+*/
+
+body {
+    background: #725d68;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+div.container {
+    background: #efbc9b;
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+
+div.items {
+    background: #a8b4a5;
+    padding: 15px;
+}
+
+div.item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+div.item div.text {
+    font-size: 20px;
+    color: #725d68;
+}
+
+div.item div.source {
+    font-size: 16px;
+    color: #a8b4a5;
+    text-align: right;
+}
+
+div.item div.tags a {
+    background: #ee92c2;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
+
+div.item div.tags a:hover {
+    background: #a8b4a5;
+}
