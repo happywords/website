@@ -84,6 +84,10 @@
                 ],
             };
 
+            function default_me(value, default_value) {
+                return (value === undefined || value === null) ? default_value : value;
+            }
+
             function render_quote(text, source, tags) {
                 var item_template = document.getElementById("item-template").content;
 
@@ -122,17 +126,31 @@
                 })
             }
 
+            function get_quotes(page) {
+                var result = "";
+                try {
+                    result = quotes[page];
+                } catch {
+                    result = undefined;
+                }
+
+                return default_me(result, []);
+            }
+
             function render_page(page) {
+                window.page = page;
                 set_url_param("page", page);
-                document.querySelector("button.btn-active").classList.remove("btn-active");
-                document.querySelector("button[data-page='" + page + "']").classList.add("btn-active");
+                try {
+                    document.querySelector("button.btn-active").classList.remove("btn-active");
+                    document.querySelector("button[data-page='" + page + "']").classList.add("btn-active");
+                } catch {}
                 var title = document.getElementsByClassName("list-title")[0];
                 title.textContent = "Quotes - page " + page;
-                update_content(quotes[page]);
+                update_content(get_quotes(page));
             }
 
             if ('content' in document.createElement('template')) {
-                var page = get_url_param("page");
+                window.page = default_me(get_url_param("page"), 1);
                 render_page(page);
             } else {
                 console.log("template feature missing.");
