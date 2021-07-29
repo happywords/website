@@ -7,21 +7,21 @@
         <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- DEPLOY TODO
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134228583-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag( 'config', 'UA-134228583-1' );
-            gtag( 'event', 'page_view', { 'send_to': 'UA-134228583-1' });
-        </script>
-        -->
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134228583-1"></script> -->
+        <!-- <script> -->
+        <!--     window.dataLayer = window.dataLayer || []; -->
+        <!--     function gtag(){dataLayer.push(arguments);} -->
+        <!--     gtag('js', new Date()); -->
+        <!--  -->
+        <!--     gtag( 'config', 'UA-134228583-1' ); -->
+        <!--     gtag( 'event', 'page_view', { 'send_to': 'UA-134228583-1' }); -->
+        <!-- </script> -->
     </head>
     <body>
         <div class="container">
-            <h1>Happy Words</h1>
+            <a class="site-title" href="https://happywords.net">
+                <h1>Happy Words</h1>
+            </a>
             <div class="items">
                 <h2 class="list-title">Items</h2>
 
@@ -31,7 +31,7 @@
                 <template id="item-template">
                     <div class="item">
                         <div class="published">
-                            Published: <span>2021-07-28</span>
+                            <span>2021-07-28</span>
                         </div>
                         <div class="text">
                             <p>
@@ -69,7 +69,7 @@
 
                 var filtered_quotes = [];
                 window.all_quotes.forEach(quote => {
-                    if(tag === "all" || quote.tags.includes(tag)) {
+                    if(tag === "toate" || quote.tags.includes(tag)) {
                         filtered_quotes.push(quote);
                     }
                 });
@@ -146,9 +146,9 @@
 
             function page_title(page, tag, short = false) {
                 if(short) {
-                    return "Quotes - " + tag + " - page " + page;
+                    return "Citate - " + tag + " - pag. " + page;
                 }
-                return "Quotes - " + tag + " - page " + page + " - Happy Words";
+                return "Citate - " + tag + " - pag. " + page + " - Happy Words";
             }
 
             function set_page_title(page, tag) {
@@ -203,7 +203,7 @@
 
             if ('content' in document.createElement('template')) {
                 window.page = default_me(get_url_param("page"), 1);
-                window.tag = default_me(get_url_param("tag"), "all");
+                window.tag = default_me(get_url_param("tag"), "toate");
                 select_quotes();
                 update_pagination();
                 render_page(page);

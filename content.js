@@ -12,7 +12,7 @@ var all_quotes = [
         published: "2021-07-28"
     },
     {
-        text: "Glasul tău să nu fie aspru, nu vorbi din toată tăria limbii tale",
+        text: "Glasul tău să nu fie aspru, nu vorbi din toată tăria limbii tale.",
         source: "Papirus Insinger, XXII, 10",
         tags: ["vorbire", "blândețe", "egiptenii-antici"],
         published: "2021-07-28"

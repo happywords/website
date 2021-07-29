@@ -1,10 +1,10 @@
 /* https://www.happyhues.co/palettes/14 */
 
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,900&display=swap&family=Style+Script&display=swap');
 
 body {
     background: #fffffe;
-    font-family: 'Andada Pro', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -13,6 +13,10 @@ h1 {
     text-align: center;
     font-weight: 300;
     font-size: 40px;
+}
+
+a.site-title {
+    text-decoration: none;
 }
 
 h2 {
@@ -44,6 +48,8 @@ div.item div.text {
     font-size: 25px;
     color: #2d334a;
     clear: both;
+    font-weight: 900;
+    font-style: italic;
 }
 
 div.item div.source {
@@ -51,6 +57,7 @@ div.item div.source {
     color: #2d334a;
     text-align: right;
     float: right;
+    font-weight: 700;
 }
 
 div.item div.published {
