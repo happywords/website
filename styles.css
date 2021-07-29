@@ -1,80 +1,92 @@
-/*
- * https://coolors.co/efbc9b-ee92c2-9d6a89-725d68-a8b4a5
-   #efbc9b
-   #ee92c2
-   #9d6a89
-   #725d68
-   #a8b4a5
-*/
+/* https://www.happyhues.co/palettes/14 */
+
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Style+Script&display=swap');
 
 body {
-    background: #725d68;
+    background: #fffffe;
     font-family: 'Andada Pro', serif;
 }
 
 h1 {
     font-family: 'Style Script', cursive;
-    color: white;
+    color: #ffd803;
     text-align: center;
     font-weight: 300;
+    font-size: 40px;
+}
+
+h2 {
+    color: #2d334a;
+    text-align: center;
+    font-size: 20px;
 }
 
 div.container {
-    background: #efbc9b;
-    max-width: 500px;
+    background: #fffffe;
+    max-width: 700px;
     margin: auto;
-    padding: 15px;
 }
 
 div.items {
-    background: #a8b4a5;
-    padding: 15px;
+    background: #fffffe;
+    padding: 10px;
 }
 
 div.item {
-    background: white;
-    padding: 15px;
-    margin-bottom: 15px;
+    background: #fffffe;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 div.item div.text {
-    font-size: 20px;
-    color: #725d68;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #2d334a;
+    clear: both;
 }
 
-div.item div.source,
-div.item div.published {
-    font-size: 16px;
-    color: #a8b4a5;
+div.item div.source {
+    font-size: 15px;
+    color: #2d334a;
     text-align: right;
+    float: right;
+}
+
+div.item div.published {
+    font-size: 10px;
+    color: #2d334a;
+    text-align: right;
+    float: left;
+    margin-bottom: 20px;
 }
 
 div.item div.tags {
-    margin-top: 15px;
+    clear: both;
+    margin-top: 20px;
 }
 
 div.item div.tags a {
-    background: #ee92c2;
-    padding: 5px;
+    background: #ffd803;
+    padding: 10px;
     text-decoration: none;
-    color: white;
-    margin-right: 5px;
-}
-
-div.item div.tags a:hover {
-    background: #a8b4a5;
+    color: #272343;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 div.pagination button.btn {
     border: none;
-    background: #9d6a89;
-    color: black;
-    padding: 15px;
+    background: #ffd803;
+    color: #272343;
+    padding: 10px;
     font-size: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 div.pagination button.btn.btn-active {
-    background: white !important;
+    background: #fffffe !important;
+    color: #272343 !important;
 }
