@@ -1,8 +1,32 @@
 var all_quotes = [
     {
-        text: "",
-        source: "",
-        tags: ["", "", "egiptenii-antici"],
+        text: "Acela ce veghează și ia seama la inima sa și la limba sa, doarme fără grijă.",
+        source: "Papirus Insinger, XXI, 14",
+        tags: ["inimă", "vorbire", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Nu te supăra pe acela care este peste măsură încărcat cu treburi.",
+        source: "Învățăturile lui Ptahhotep, 389",
+        tags: ["supărare", "treburi", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Este mai bine să mori în lipsuri, decât să trăiești lipsit de rușine.",
+        source: "Papirus Insinger, XXVII, 3",
+        tags: ["rușine", "viață", "moarte", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Fii plin de răbdare în timpul în care vorbești.",
+        source: "Învățăturile lui Ptahhotep, 597",
+        tags: ["răbdare", "vorbire", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Povestește cele ce ai văzut și nu cele ce ai auzit.",
+        source: "Învățăturile lui Ptahhotep, 353",
+        tags: ["vorbire", "văz", "auz", "egiptenii-antici"],
         published: "2021-07-29"
     },
     {
