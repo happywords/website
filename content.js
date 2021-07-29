@@ -1,5 +1,35 @@
 var all_quotes = [
     {
+        text: "",
+        source: "",
+        tags: ["", "", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Fii un om liniștit și pașnic și vei găsi viața. Trupul tău va înflori pe pământ.",
+        source: "Învățăturile lui Amen-em-ope, III",
+        tags: ["liniște", "pace", "viață", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    ,{
+        text: "Din pieptul tău alungă îngrijorarea.",
+        source: "Inscripție pe mormântul lui Taimhotep",
+        tags: ["îngrijorare", "viață", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Iertarea sporește prietenia",
+        source: "Povestea țăranului bun de gură",
+        tags: ["iertare", "prietenie", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
+        text: "Nu lăsa să stea în inima ta grija care lovește inima.",
+        source: "Papirus Insinger, XX, 7",
+        tags: ["inimă", "liniște", "îngrijoare", "egiptenii-antici"],
+        published: "2021-07-29"
+    },
+    {
         text: "Întărește adevărul și dreptatea în copiii tăi.",
         source: "Învățăturile lui Ptahhotep, 597",
         tags: ["adevăr", "dreptate", "egiptenii-antici"],
