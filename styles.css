@@ -99,3 +99,15 @@ div.pagination button.btn.btn-active {
     background: #fffffe !important;
     color: #272343 !important;
 }
+
+/* An easy way to generate instagram posts. Add .fullscreen to div.text for
+ * the quote you want to publish. */
+div.fullscreen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center !important;
+    padding: 40% !important;
+}
