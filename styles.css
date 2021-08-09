@@ -43,6 +43,8 @@ div.item {
 }
 
 div.item div.text {
+    background: #e3f6f5;
+    padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;

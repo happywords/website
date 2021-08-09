@@ -1,5 +1,35 @@
 var all_quotes = [
     {
+        text: "Învinge-te pe tine însuți - iată cel mai bun leac pentru a fi neînfrânt.",
+        source: "Citate din lumea antică",
+        tags: ["caracter"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Există o singură cale - calea adevărului, toate celelalte nu sunt căi.",
+        source: "Citate din lumea antică",
+        tags: ["adevăr"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Nu există prieten comparabil cu sănătatea; nu există dușman comparabil cu boala.",
+        source: "Citate din lumea antică",
+        tags: ["sănătate"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Mai bine o clipă trăită după lege, decât un milion de ani de viață nelegiuită.",
+        source: "Citate din lumea antică",
+        tags: ["viață", "dreptate"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Acela care nu răspunde cu mânie la mânie, salvează doi deodată - și pe sine și pe celălalt.",
+        source: "Citate din lumea antică",
+        tags: ["mânie"],
+        published: "2021-08-09"
+    },
+    {
         text: "Rana făcută de săgeată se vindecă, pădurea tăiată de topor se înalță la loc, dar rana făcută de vorba urâtă e fără leac.",
         source: "Citate din lumea antică",
         tags: ["vorbire"],
