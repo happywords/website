@@ -1,2 +1,2 @@
 TODO
-Show all (reset filters and go to page 1)
+Search feature?
