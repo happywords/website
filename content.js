@@ -1,5 +1,35 @@
 var all_quotes = [
     {
+        text: "Rana făcută de săgeată se vindecă, pădurea tăiată de topor se înalță la loc, dar rana făcută de vorba urâtă e fără leac.",
+        source: "Citate din lumea antică",
+        tags: ["vorbire"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Trăiește la tinerețe în așa fel încât să fii fericit la bătrânețe.",
+        source: "Citate din lumea antică",
+        tags: ["viață", "tinerețe", "bătrânețe", "fericire"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Dacă ți se întâmplă să auzi o vorbă urâtă, îngroap-o în pământ la o adâncime de șapte coți.",
+        source: "Citate din lumea antică",
+        tags: ["vorbire", "auz"],
+        published: "2021-08-09"
+    },
+    {
+        text: "Cel impulsiv nu va cunoaște niciodată adevărul.",
+        source: "Citate din lumea antică",
+        tags: ["adevăr"],
+        published: "2021-08-09"
+    },
+    {
+        text: "O ceartă fără motiv - iată semnul prostiei.",
+        source: "Citate din lumea antică",
+        tags: ["ceartă", "vorbire", "prostie"],
+        published: "2021-08-09"
+    },
+    {
         text: "Acela ce veghează și ia seama la inima sa și la limba sa, doarme fără grijă.",
         source: "Papirus Insinger, XXI, 14",
         tags: ["inimă", "vorbire", "egiptenii-antici"],
