@@ -1,5 +1,35 @@
 var all_quotes = [
     {
+        text: "Nefericit e acela care nu poate suporta nefericirea.",
+        source: "Bias din Priene",
+        tags: ["nefericire", "viață"],
+        published: "2021-08-10"
+    },
+    {
+        text: "Tot ce am, eu port cu mine.",
+        source: "Bias din Priene",
+        tags: ["caracter", "bogăție"],
+        published: "2021-08-10"
+    },
+    {
+        text: "E mai bine să lămurești o ceartă între doi dușmani decât între doi prieteni, fiindcă se știe că după aceasta unul dintre prieteni îți va deveni dușman, iar unul dintre dușmani - prieten.",
+        source: "Bias din Priene",
+        tags: ["ceartă", "vorbire", "prietenie"],
+        published: "2021-08-10"
+    },
+    {
+        text: "Care e cel mai bun sfetnic? Timpul.",
+        source: "Bias din Priene",
+        tags: ["timp"],
+        published: "2021-08-10"
+    },
+    {
+        text: "Cucerește prin convingere, nu prin forță.",
+        source: "Bias din Priene",
+        tags: ["victorie", "cucerire"],
+        published: "2021-08-10"
+    },
+    {
         text: "Învinge-te pe tine însuți - iată cel mai bun leac pentru a fi neînfrânt.",
         source: "Citate din lumea antică",
         tags: ["caracter"],
