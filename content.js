@@ -6,7 +6,7 @@ var all_quotes = [
         published: "2021-08-15"
     },
     {
-        text: "Fii conștient de timp",
+        text: "Fii conștient de timp.",
         source: "Hesiod",
         tags: ["timp", "viață"],
         published: "2021-08-15"
