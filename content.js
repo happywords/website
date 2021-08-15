@@ -1,5 +1,23 @@
 var all_quotes = [
     {
+        text: "Ce este libertatea? O conștiință curată.",
+        source: "Periandru din Corint",
+        tags: ["libertate", "caracter"],
+        published: "2021-08-15"
+    },
+    {
+        text: "Fii conștient de timp",
+        source: "Hesiod",
+        tags: ["timp", "viață"],
+        published: "2021-08-15"
+    },
+    {
+        text: "Dacă un lucru poate fi demonstrat prin fapte, atunci nu are rost să faci risipă de cuvinte.",
+        source: "Esop",
+        tags: ["viață", "vorbire"],
+        published: "2021-08-15"
+    },
+    {
         text: "Nefericit e acela care nu poate suporta nefericirea.",
         source: "Bias din Priene",
         tags: ["nefericire", "viață"],
