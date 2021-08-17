@@ -1,5 +1,29 @@
 var all_quotes = [
     {
+        text: "Ce e comun pentru toți? Speranța. Ea există și la cei care nu mai au nimic.",
+        source: "Tales din Milet",
+        tags: ["speranță"],
+        published: "2021-08-17"
+    },
+    {
+        text: "Nu da sfaturi plăcute tuturor, ci utile tuturor.",
+        source: "Solon din Atena",
+        tags: ["viață"],
+        published: "2021-08-17"
+    },
+    {
+        text: "În chestiunile importante nu poți fi pe placul tuturor.",
+        source: "Solon din Atena",
+        tags: ["viață"],
+        published: "2021-08-17"
+    },
+    {
+        text: "Ce este libertatea? O conștiință curată.",
+        source: "Periandru din Corint",
+        tags: ["libertate", "caracter"],
+        published: "2021-08-15"
+    },
+    {
         text: "Ce este libertatea? O conștiință curată.",
         source: "Periandru din Corint",
         tags: ["libertate", "caracter"],
