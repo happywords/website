@@ -1,5 +1,11 @@
 var all_quotes = [
     {
+        text: "Dacă vrei să fii credincios înconjoară-te de prieteni credincioși.",
+        source: "Meneandru",
+        tags: ["speranță"],
+        published: "2021-08-18"
+    },
+    {
         text: "Ce e comun pentru toți? Speranța. Ea există și la cei care nu mai au nimic.",
         source: "Tales din Milet",
         tags: ["speranță"],
