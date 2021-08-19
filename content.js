@@ -1,8 +1,14 @@
 var all_quotes = [
     {
+        text: "Adaugă grijilor un strop de bucurie.",
+        source: "Cato cel Bătrân",
+        tags: ["bucurie", "viață"],
+        published: "2021-08-19"
+    },
+    {
         text: "Dacă vrei să fii credincios înconjoară-te de prieteni credincioși.",
         source: "Meneandru",
-        tags: ["speranță"],
+        tags: ["credință"],
         published: "2021-08-18"
     },
     {
