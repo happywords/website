@@ -1,5 +1,11 @@
 var all_quotes = [
     {
+        text: "Tot ce e făcut nu poate deveni nefăcut.",
+        source: "Plaut",
+        tags: ["viață"],
+        published: "2021-08-20"
+    },
+    {
         text: "Adaugă grijilor un strop de bucurie.",
         source: "Cato cel Bătrân",
         tags: ["bucurie", "viață"],
