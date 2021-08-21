@@ -1,5 +1,11 @@
 var all_quotes = [
     {
+        text: "Bunăvoința reciprocă e cea mai apropiată formă de rudenie.",
+        source: "Publius Syrus",
+        tags: ["bunăvoință", "caracter"],
+        published: "2021-08-21"
+    },
+    {
         text: "Tot ce e făcut nu poate deveni nefăcut.",
         source: "Plaut",
         tags: ["viață"],
