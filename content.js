@@ -1,5 +1,11 @@
 var all_quotes = [
     {
+        text: "Viața este lungă dacă este plină. O vom măsura prin fapte, și nu prin durată.",
+        source: "Seneca cel Tânăr",
+        tags: ["viață"],
+        published: "2021-08-22"
+    },
+    {
         text: "Bunăvoința reciprocă e cea mai apropiată formă de rudenie.",
         source: "Publius Syrus",
         tags: ["bunăvoință", "caracter"],
