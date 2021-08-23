@@ -1,5 +1,11 @@
 var all_quotes = [
     {
+        text: "Adevăratul curaj nu constă în a disprețui moartea, ci în a lupta împotriva nenorocirilor.",
+        source: "Seneca cel Tânăr",
+        tags: ["curaj", "moarte"],
+        published: "2021-08-23"
+    },
+    {
         text: "Viața este lungă dacă este plină. O vom măsura prin fapte, și nu prin durată.",
         source: "Seneca cel Tânăr",
         tags: ["viață"],
