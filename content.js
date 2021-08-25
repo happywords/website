@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Zilele nu trebuie numărate, ci cântărite.",
+    source: "Pliniu cel Bătrân",
+    tags: ["viață"],
+    published: "2021-08-25"
+  },
+  {
     text: "Nu se obține ușor victoria împotriva acelora care sunt gata să se sacrifice.",
     source: "Marcus  Annaeus Lucanus",
     tags: ["victorie", "caracter"],
