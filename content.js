@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Oamenii trec, exemplele rămân.",
+    source: "Tacit",
+    tags: ["caracter", "viață"],
+    published: "2021-08-26"
+  },
+  {
     text: "Zilele nu trebuie numărate, ci cântărite.",
     source: "Pliniu cel Bătrân",
     tags: ["viață"],
