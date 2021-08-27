@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Tot ce știm e limitat, iar ce nu știm e nelimitat.",
+    source: "Apuleius",
+    tags: ["cunoaștere", "știință"],
+    published: "2021-08-27"
+  },
+  {
     text: "Oamenii trec, exemplele rămân.",
     source: "Tacit",
     tags: ["caracter", "viață"],
