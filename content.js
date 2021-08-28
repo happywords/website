@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Când inima se veselește, chipul înflorește.",
+    source: "Vasile cel Mare",
+    tags: ["bucurie", "fericire"],
+    published: "2021-08-28"
+  },
+  {
     text: "Tot ce știm e limitat, iar ce nu știm e nelimitat.",
     source: "Apuleius",
     tags: ["cunoaștere", "știință"],
