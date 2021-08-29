@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Nu e pe lume prieten mai dulce decât cartea.",
+    source: "Ali Șir Nevai",
+    tags: ["citit", "cărți"],
+    published: "2021-08-29"
+  },
+  {
     text: "Când inima se veselește, chipul înflorește.",
     source: "Vasile cel Mare",
     tags: ["bucurie", "fericire"],
