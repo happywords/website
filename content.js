@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Iubește-i pe toți, încrede-te în cei aleși, nu fă nimănui rău.",
+    source: "William Shakespeare",
+    tags: ["iubire", "bine", "încredere", "caracter", "viață"],
+    published: "2021-08-30"
+  },
+  {
     text: "Nu e pe lume prieten mai dulce decât cartea.",
     source: "Ali Șir Nevai",
     tags: ["citit", "cărți"],
