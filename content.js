@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Sănătatea și veselia se hrănesc una pe cealaltă.",
+    source: "Joseph Addison",
+    tags: ["sănătate", "bucurie", "fericire"],
+    published: "2021-08-31"
+  },
+  {
     text: "Iubește-i pe toți, încrede-te în cei aleși, nu fă nimănui rău.",
     source: "William Shakespeare",
     tags: ["iubire", "bine", "încredere", "caracter", "viață"],
