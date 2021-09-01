@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Tot ce este minunat e greu și rar.",
+    source: "Baruch Spinoza",
+    tags: ["viață", "caracter"],
+    published: "2021-09-01"
+  },
+  {
     text: "Sănătatea și veselia se hrănesc una pe cealaltă.",
     source: "Joseph Addison",
     tags: ["sănătate", "bucurie", "fericire"],
