@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Viziunea este arta de a vedea cele nevăzute.",
+    source: "Jonathan Swift",
+    tags: ["viziune"],
+    published: "2021-09-02"
+  },
+  {
     text: "Tot ce este minunat e greu și rar.",
     source: "Baruch Spinoza",
     tags: ["viață", "caracter"],
