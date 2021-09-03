@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Timpul este materialul din care este făcută viața.",
+    source: "Benjamin Franklin",
+    tags: ["timp", "viață"],
+    published: "2021-09-03"
+  },
+  {
     text: "Viziunea este arta de a vedea cele nevăzute.",
     source: "Jonathan Swift",
     tags: ["viziune"],
