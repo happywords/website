@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Răspândește lumina, iar întunericul se va risipi de la sine.",
+    source: "Erasmus",
+    tags: ["caracter", "viață", "victorie"],
+    published: "2021-09-04"
+  },
+  {
     text: "Timpul este materialul din care este făcută viața.",
     source: "Benjamin Franklin",
     tags: ["timp", "viață"],
