@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Oamenii sunt păsări cu aripile crescute înăuntru.",
+    source: "Nichita Stănescu",
+    tags: ["om", "viață"],
+    published: "2021-09-06"
+  },
+  {
     text: "Fii bun de câte ori se poate. Și întotdeauna se poate.",
     source: "Dalai Lama",
     tags: ["caracter", "bunătate"],
