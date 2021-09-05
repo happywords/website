@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Fii bun de câte ori se poate. Și întotdeauna se poate.",
+    source: "Dalai Lama",
+    tags: ["caracter", "bunătate"],
+    published: "2021-09-05"
+  },
+  {
     text: "Răspândește lumina, iar întunericul se va risipi de la sine.",
     source: "Erasmus",
     tags: ["caracter", "viață", "victorie"],
