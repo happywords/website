@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Speranța este credința care ne ține de mână în întuneric.",
+    source: "George Iles",
+    tags: ["speranță", "credință"],
+    published: "2021-09-07"
+  },
+  {
     text: "Oamenii sunt păsări cu aripile crescute înăuntru.",
     source: "Nichita Stănescu",
     tags: ["om", "viață"],
