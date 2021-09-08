@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Răbdarea este amară, dar fructele ei sunt dulci.",
+    source: "Aristotel",
+    tags: ["răbdare", "caracter"],
+    published: "2021-09-09"
+  },
+  {
     text: "Bogăţia nu înseamnă avere, ci puterea de a renunţa la ea. Cu stil.",
     source: "Alexander von Schonburg",
     tags: ["bogăție", "caracter"],
