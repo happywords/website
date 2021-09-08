@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Bogăţia nu înseamnă avere, ci puterea de a renunţa la ea. Cu stil.",
+    source: "Alexander von Schonburg",
+    tags: ["bogăție", "caracter"],
+    published: "2021-09-08"
+  },
+  {
     text: "Speranța este credința care ne ține de mână în întuneric.",
     source: "George Iles",
     tags: ["speranță", "credință"],
