@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "În inima recunoscătoare va fi vară mereu.",
+    source: "Celia Thaxter",
+    tags: ["recunoștință", "caracter"],
+    published: "2021-09-10"
+  },
+  {
     text: "Răbdarea este amară, dar fructele ei sunt dulci.",
     source: "Aristotel",
     tags: ["răbdare", "caracter"],
