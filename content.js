@@ -1,9 +1,9 @@
 var all_quotes = [
   {
-    text: "Atunci când puterea dragostei va depăși dragostea de putere, în lume va fi pace.",
-    source: "Jimi Hendrix",
-    tags: ["pace", "iubire"],
-    published: "2021-09-11"
+    text: "Pastila longevităţii – liniştea sufletească.",
+    source: "Mihai Cucereavii",
+    tags: ["liniște", "viață"],
+    published: "2021-09-12"
   },
   {
     text: "În inima recunoscătoare va fi vară mereu.",
