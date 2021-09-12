@@ -6,6 +6,12 @@ var all_quotes = [
     published: "2021-09-12"
   },
   {
+    text: "Atunci când puterea dragostei va depăși dragostea de putere, în lume va fi pace.",
+    source: "Jimi Hendrix",
+    tags: ["pace", "iubire"],
+    published: "2021-09-11"
+  },
+  {
     text: "În inima recunoscătoare va fi vară mereu.",
     source: "Celia Thaxter",
     tags: ["recunoștință", "caracter"],
