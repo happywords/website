@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Omul nu este altceva decât șirul faptelor sale.",
+    source: "Georg Wilhelm Frierich Hegel",
+    tags: ["om", "viață", "caracter"],
+    published: "2021-09-13"
+  },
+  {
     text: "Pastila longevităţii – liniştea sufletească.",
     source: "Mihai Cucereavii",
     tags: ["liniște", "viață"],
