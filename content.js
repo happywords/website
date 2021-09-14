@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Limba este haina gândurilor.",
+    source: "Samuel Johnson",
+    tags: ["vorbire"],
+    published: "2021-09-14"
+  },
+  {
     text: "Omul nu este altceva decât șirul faptelor sale.",
     source: "Georg Wilhelm Frierich Hegel",
     tags: ["om", "viață", "caracter"],
