@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Munca este cea mai bună metodă de a savura viața.",
+    source: "Immanuel Kant",
+    tags: ["muncă", "hărnicie", "viață"],
+    published: "2021-09-15"
+  },
+  {
     text: "Limba este haina gândurilor.",
     source: "Samuel Johnson",
     tags: ["vorbire"],
