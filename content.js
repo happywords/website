@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Unii oameni sunt faimoși, alții merită să fie faimoși.",
+    source: "Gotthold Ephraim Lessing",
+    tags: ["viață", "caracter"],
+    published: "2021-09-16"
+  },
+  {
     text: "Munca este cea mai bună metodă de a savura viața.",
     source: "Immanuel Kant",
     tags: ["muncă", "hărnicie", "viață"],
