@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Prost nu e acela care nu știe, ci acel care nu vrea să știe.",
+    source: "Grigori Savvici Skovoroda",
+    tags: ["prostie", "știință"],
+    published: "2021-09-17"
+  },
+  {
     text: "Unii oameni sunt faimoși, alții merită să fie faimoși.",
     source: "Gotthold Ephraim Lessing",
     tags: ["viață", "caracter"],
