@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Nu poți cumpăra fericire, dar poți cumpăra cărți, ceea ce de fapt e același lucru.",
+    source: "Autor necunoscut",
+    tags: ["fericire", "cărți"],
+    published: "2021-09-18"
+  },
+  {
     text: "Prost nu e acela care nu știe, ci acel care nu vrea să știe.",
     source: "Grigori Savvici Skovoroda",
     tags: ["prostie", "știință"],
