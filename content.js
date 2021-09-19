@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Un copil care citeşte va fi un adult care gândeşte.",
+    source: "Sasha Salmina",
+    tags: ["cărți", "educație", "gândire"],
+    published: "2021-09-19"
+  },
+  {
     text: "Nu poți cumpăra fericire, dar poți cumpăra cărți, ceea ce de fapt e același lucru.",
     source: "Autor necunoscut",
     tags: ["fericire", "cărți"],
