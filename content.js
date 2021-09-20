@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Gol este omul care este plin de sine însuși.",
+    source: "Mihail Lermontov",
+    tags: ["caracter"],
+    published: "2021-09-20"
+  },
+  {
     text: "Un copil care citeşte va fi un adult care gândeşte.",
     source: "Sasha Salmina",
     tags: ["cărți", "educație", "gândire"],
