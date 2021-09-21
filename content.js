@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Scopul adevărat al omului este acela de a trăi, nu de a exista.",
+    source: "Jack London",
+    tags: ["viață"],
+    published: "2021-09-21"
+  },
+  {
     text: "Gol este omul care este plin de sine însuși.",
     source: "Mihail Lermontov",
     tags: ["caracter"],
