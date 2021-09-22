@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Dacă stelele se aprind, nu înseamnă asta că cineva are nevoie de ele?",
+    source: "Vladimir Vladimirovici Maiakovski",
+    tags: ["stele", "noapte", "lumină"],
+    published: "2021-09-22"
+  },
+  {
     text: "Scopul adevărat al omului este acela de a trăi, nu de a exista.",
     source: "Jack London",
     tags: ["viață"],
