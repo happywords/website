@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Viața e ca un munte: îl urci încet, îl cobori repede.",
+    source: "Guy De Maupassant",
+    tags: ["viață"],
+    published: "2021-09-23"
+  },
+  {
     text: "Dacă stelele se aprind, nu înseamnă asta că cineva are nevoie de ele?",
     source: "Vladimir Vladimirovici Maiakovski",
     tags: ["stele", "noapte", "lumină"],
