@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "În lumea aceasta ne face bogați nu ceea ce primim, ci ceea ce dăm.",
+    source: "Henry Ward Beercher",
+    tags: ["bogăție", "viață"],
+    published: "2021-09-24"
+  },
+  {
     text: "Viața e ca un munte: îl urci încet, îl cobori repede.",
     source: "Guy De Maupassant",
     tags: ["viață"],
