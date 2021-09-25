@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Concizia este sora talentului.",
+    source: "Anton Pavlovici Cehov",
+    tags: ["caracter", "talent"],
+    published: "2021-09-25"
+  },
+  {
     text: "În lumea aceasta ne face bogați nu ceea ce primim, ci ceea ce dăm.",
     source: "Henry Ward Beercher",
     tags: ["bogăție", "viață"],
