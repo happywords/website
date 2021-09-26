@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Anii ne învață multe lucruri din ceea ce zilele nu știu.",
+    source: "Ralph Waldo Emerson",
+    tags: ["viață", "timp"],
+    published: "2021-09-26"
+  },
+  {
     text: "Concizia este sora talentului.",
     source: "Anton Pavlovici Cehov",
     tags: ["caracter", "talent"],
