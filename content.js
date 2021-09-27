@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "O carte e un dar pe care îl poţi deschide mereu şi mereu.",
+    source: "Garrison Keillor",
+    tags: ["cărți"],
+    published: "2021-09-27"
+  },
+  {
     text: "Anii ne învață multe lucruri din ceea ce zilele nu știu.",
     source: "Ralph Waldo Emerson",
     tags: ["viață", "timp"],
