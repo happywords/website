@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "O carte închisă este doar o bucată de hârtie.",
+    source: "Anonim",
+    tags: ["cărți"],
+    published: "2021-09-28"
+  },
+  {
     text: "O carte e un dar pe care îl poţi deschide mereu şi mereu.",
     source: "Garrison Keillor",
     tags: ["cărți"],
