@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Când tragi trebuie să ochești mai sus de țintă.",
+    source: "Franz Kafka",
+    tags: ["succes", "viață"],
+    published: "2021-09-29"
+  },
+  {
     text: "O carte închisă este doar o bucată de hârtie.",
     source: "Anonim",
     tags: ["cărți"],
