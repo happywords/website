@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Fericirea e ca sănătatea: când n-o observi atunci înseamnă că există.",
+    source: "Ivan Sergheievici Turgheniev",
+    tags: ["fericire"],
+    published: "2021-09-30"
+  },
+  {
     text: "Când tragi trebuie să ochești mai sus de țintă.",
     source: "Franz Kafka",
     tags: ["succes", "viață"],
