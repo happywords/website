@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Muzica este stenografia sentimentelor.",
+    source: "Lev Nikolaevici Tolstoi",
+    tags: ["muzică"],
+    published: "2021-10-01"
+  },
+  {
     text: "Fericirea e ca sănătatea: când n-o observi atunci înseamnă că există.",
     source: "Ivan Sergheievici Turgheniev",
     tags: ["fericire"],
