@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Fă tot ce poți, cu ce ai, acolo unde ești.",
+    source: "Theodore Roosevelt",
+    tags: ["viață", "caracter"],
+    published: "2021-10-02"
+  },
+  {
     text: "Muzica este stenografia sentimentelor.",
     source: "Lev Nikolaevici Tolstoi",
     tags: ["muzică"],
