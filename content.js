@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Întâmplările fericite aduc prieteni, cele triste îi pun la încercare.",
+    source: "Publius Syrus",
+    tags: ["prietenie", "viață", "caracter"],
+    published: "2021-10-03"
+  },
+  {
     text: "Fă tot ce poți, cu ce ai, acolo unde ești.",
     source: "Theodore Roosevelt",
     tags: ["viață", "caracter"],
