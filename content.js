@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Pleacă-ți urechea la vorba folositoare, chiar dacă vine de la un copil; nu asculta vorba urâtă, chiar dacă vine de la un bătrân.",
+    source: "Înțelepții antici",
+    tags: ["viață", "caracter", "vorbire"],
+    published: "2021-10-04"
+  },
+  {
     text: "Întâmplările fericite aduc prieteni, cele triste îi pun la încercare.",
     source: "Publius Syrus",
     tags: ["prietenie", "viață", "caracter"],
