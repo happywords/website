@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Îmbracă o haină veche, dar cumpără o carte nouă.",
+    source: "Austin Phelps",
+    tags: ["cărți"],
+    published: "2021-10-05"
+  },
+  {
     text: "Pleacă-ți urechea la vorba folositoare, chiar dacă vine de la un copil; nu asculta vorba urâtă, chiar dacă vine de la un bătrân.",
     source: "Înțelepții antici",
     tags: ["viață", "caracter", "vorbire"],
