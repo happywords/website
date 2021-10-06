@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Bucuria înseamnă să poți râde pe dinăuntru.",
+    source: "Melba Colgrove",
+    tags: ["bucurie"],
+    published: "2021-10-06"
+  },
+  {
     text: "Îmbracă o haină veche, dar cumpără o carte nouă.",
     source: "Austin Phelps",
     tags: ["cărți"],
