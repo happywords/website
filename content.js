@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Răbdarea este tovarăşul de drum al înţelepciunii.",
+    source: "Sf. Augustin",
+    tags: ["răbdare"],
+    published: "2021-10-07"
+  },
+  {
     text: "Bucuria înseamnă să poți râde pe dinăuntru.",
     source: "Melba Colgrove",
     tags: ["bucurie"],
