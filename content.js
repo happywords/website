@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Ridurile ar trebui, pur şi simplu, să arate numai unde au fost zâmbete.",
+    source: "Mark Twain",
+    tags: ["bucurie", "fericire", "zâmbet"],
+    published: "2021-10-08"
+  },
+  {
     text: "Răbdarea este tovarăşul de drum al înţelepciunii.",
     source: "Sf. Augustin",
     tags: ["răbdare"],
