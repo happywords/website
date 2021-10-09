@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Credința adevărată crede incredibilul, vede invizibilul și poate imposibilul.",
+    source: "Lev Tolstoi",
+    tags: ["credință"],
+    published: "2021-10-09"
+  },
+  {
     text: "Ridurile ar trebui, pur şi simplu, să arate numai unde au fost zâmbete.",
     source: "Mark Twain",
     tags: ["bucurie", "fericire", "zâmbet"],
