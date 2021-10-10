@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Cel care nu citeşte cărţi bune nu are niciun avantaj în faţa celui care nu ştie să citească.",
+    source: "Mark Twain",
+    tags: ["cărți"],
+    published: "2021-10-10"
+  },
+  {
     text: "Credința adevărată crede incredibilul, vede invizibilul și poate imposibilul.",
     source: "Lev Tolstoi",
     tags: ["credință"],
