@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Nimeni să nu plece de la tine altfel decât mai liniștit și mai fericit decât a venit.",
+    source: "Anonim",
+    tags: ["fericire", "liniște", "caracter"],
+    published: "2021-10-11"
+  },
+  {
     text: "Cel care nu citeşte cărţi bune nu are niciun avantaj în faţa celui care nu ştie să citească.",
     source: "Mark Twain",
     tags: ["cărți"],
