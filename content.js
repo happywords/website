@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Împart umbrela mea cu alţii atunci când plouă, iar dacă nu am umbrelă, împart ploaia.",
+    source: "Enrique Ernesto Febbraro",
+    tags: ["ploaia"],
+    published: "2021-10-12"
+  },
+  {
     text: "Nimeni să nu plece de la tine altfel decât mai liniștit și mai fericit decât a venit.",
     source: "Anonim",
     tags: ["fericire", "liniște", "caracter"],
