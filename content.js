@@ -1,6 +1,6 @@
 var all_quotes = [
   {
-    text: "Toamna este primăvara iernii."
+    text: "Toamna este primăvara iernii.",
     source: "Henri de Toulouse - Lautrec",
     tags: ["toamna"],
     published: "2021-10-13"
