@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Toamna este primăvara iernii."
+    source: "Henri de Toulouse - Lautrec",
+    tags: ["toamna"],
+    published: "2021-10-13"
+  },
+  {
     text: "Împart umbrela mea cu alţii atunci când plouă, iar dacă nu am umbrelă, împart ploaia.",
     source: "Enrique Ernesto Febbraro",
     tags: ["ploaia"],
