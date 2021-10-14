@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Când faci o alegere, schimbi viitorul.",
+    source: "Robin Sharma",
+    tags: ["viață", "alegere", "viitor"],
+    published: "2021-10-14"
+  },
+  {
     text: "Toamna este primăvara iernii.",
     source: "Henri de Toulouse - Lautrec",
     tags: ["toamna"],
