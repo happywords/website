@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Muzica este un răspuns căruia nu i s-a pus nici o întrebare.",
+    source: "Nichita Stănescu",
+    tags: ["muzică"],
+    published: "2021-10-15"
+  },
+  {
     text: "Când faci o alegere, schimbi viitorul.",
     source: "Robin Sharma",
     tags: ["viață", "alegere", "viitor"],
