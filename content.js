@@ -3,7 +3,7 @@ var all_quotes = [
     text: "Mergi acolo unde te simți cel mai viu.",
     source: "Anonim",
     tags: ["natură"],
-    published: "2021-10-17"
+    published: "2021-10-16"
   },
   {
     text: "Muzica este un răspuns căruia nu i s-a pus nici o întrebare.",
