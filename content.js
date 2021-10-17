@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Mergi acolo unde te simți cel mai viu.",
+    source: "Anonim",
+    tags: ["natură"],
+    published: "2021-10-17"
+  },
+  {
     text: "Muzica este un răspuns căruia nu i s-a pus nici o întrebare.",
     source: "Nichita Stănescu",
     tags: ["muzică"],
