@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Nu fi tu însuți, fii cineva puțin mai bun.",
+    source: "Mignon McLaughlin",
+    tags: ["bunătate", "caracter"],
+    published: "2021-10-18"
+  },
+  {
     text: "Mergi acolo unde te simți cel mai viu.",
     source: "Anonim",
     tags: ["natură"],
