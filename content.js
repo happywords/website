@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Dacă timpul ar fi avut frunze, ce toamnă!",
+    source: "Nichita Stănescu",
+    tags: ["toamnă", "timp", "viață"],
+    published: "2021-10-19"
+  },
+  {
     text: "Nu fi tu însuți, fii cineva puțin mai bun.",
     source: "Mignon McLaughlin",
     tags: ["bunătate", "caracter"],
