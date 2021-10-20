@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "În definitiv, nu anii din viață sunt cei care contează, ci viața din anii tăi.",
+    source: "Abraham Lincoln",
+    tags: ["viață"],
+    published: "2021-10-20"
+  },
+  {
     text: "Dacă timpul ar fi avut frunze, ce toamnă!",
     source: "Nichita Stănescu",
     tags: ["toamnă", "timp", "viață"],
