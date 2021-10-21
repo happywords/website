@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Eu denunț comunismul fiindcă îi iubesc pe comuniști.",
+    source: "Richard Wurmbrand",
+    tags: ["caracter", "istorie", "comunism"],
+    published: "2021-10-21"
+  },
+  {
     text: "În definitiv, nu anii din viață sunt cei care contează, ci viața din anii tăi.",
     source: "Abraham Lincoln",
     tags: ["viață"],
