@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Toamna este o simfonie, artă vie, în mii de culori.",
+    source: "Valeria Mahok",
+    tags: ["toamnă"],
+    published: "2021-10-24"
+  },
+  {
     text: "Eu denunț comunismul fiindcă îi iubesc pe comuniști.",
     source: "Richard Wurmbrand",
     tags: ["caracter", "istorie", "comunism"],
