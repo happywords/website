@@ -1,5 +1,11 @@
 var all_quotes = [
   {
+    text: "Câteodată amintirile izbucnesc din ochi și se rostogolesc pe obraji.",
+    source: "Anonim",
+    tags: ["viață", "amintiri"],
+    published: "2021-10-25"
+  },
+  {
     text: "Toamna este o simfonie, artă vie, în mii de culori.",
     source: "Valeria Mahok",
     tags: ["toamnă"],
